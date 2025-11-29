@@ -1,0 +1,664 @@
+
+ ### Created new session: debug_session_id
+
+User > Find chrismas chocolate gift boxes.
+[90m[logging_plugin] 🚀 USER MESSAGE RECEIVED[0m
+[90m[logging_plugin]    Invocation ID: e-7ca19203-124b-491f-8e7b-f662a39f858d[0m
+[90m[logging_plugin]    Session ID: debug_session_id[0m
+[90m[logging_plugin]    User ID: debug_user_id[0m
+[90m[logging_plugin]    App Name: InMemoryRunner[0m
+[90m[logging_plugin]    Root Agent: sustainable_shopping_assistant[0m
+[90m[logging_plugin]    User Content: text: 'Find chrismas chocolate gift boxes.'[0m
+[90m[logging_plugin] 🏃 INVOCATION STARTING[0m
+[90m[logging_plugin]    Invocation ID: e-7ca19203-124b-491f-8e7b-f662a39f858d[0m
+[90m[logging_plugin]    Starting Agent: sustainable_shopping_assistant[0m
+[90m[logging_plugin] 🤖 AGENT STARTING[0m
+[90m[logging_plugin]    Agent Name: sustainable_shopping_assistant[0m
+[90m[logging_plugin]    Invocation ID: e-7ca19203-124b-491f-8e7b-f662a39f858d[0m
+[90m[logging_plugin] 🧠 LLM REQUEST[0m
+[90m[logging_plugin]    Model: gemini-2.0-flash[0m
+[90m[logging_plugin]    Agent: sustainable_shopping_assistant[0m
+[90m[logging_plugin]    System Instruction: '
+    You are a sustainable shopping assistant. Your task is to combine the shopping recommendations
+    from the shopping_agent with the sustainability evaluations from the sustainability_evaluation_a...'[0m
+[90m[logging_plugin]    Available Tools: ['shopping_agent', 'sustainability_evaluation_agent'][0m
+[90m[logging_plugin] 🧠 LLM RESPONSE[0m
+[90m[logging_plugin]    Agent: sustainable_shopping_assistant[0m
+[90m[logging_plugin]    Content: function_call: shopping_agent[0m
+[90m[logging_plugin]    Token Usage - Input: 309, Output: 9[0m
+[90m[logging_plugin] 📢 EVENT YIELDED[0m
+[90m[logging_plugin]    Event ID: 02d93dac-5936-45e6-8923-23cafa128c07[0m
+[90m[logging_plugin]    Author: sustainable_shopping_assistant[0m
+[90m[logging_plugin]    Content: function_call: shopping_agent[0m
+[90m[logging_plugin]    Final Response: False[0m
+[90m[logging_plugin]    Function Calls: ['shopping_agent'][0m
+[90m[logging_plugin] 🔧 TOOL STARTING[0m
+[90m[logging_plugin]    Tool Name: shopping_agent[0m
+[90m[logging_plugin]    Agent: sustainable_shopping_assistant[0m
+[90m[logging_plugin]    Function Call ID: adk-ca27f6b9-8b87-4cb9-84f3-077395b5a66d[0m
+[90m[logging_plugin]    Arguments: {'request': 'chrismas chocolate gift boxes'}[0m
+[90m[logging_plugin] 🚀 USER MESSAGE RECEIVED[0m
+[90m[logging_plugin]    Invocation ID: e-2178d834-64b7-4e96-909f-e3005860ab03[0m
+[90m[logging_plugin]    Session ID: 3ed478f4-418f-42ee-a8e8-2822cf549071[0m
+[90m[logging_plugin]    User ID: debug_user_id[0m
+[90m[logging_plugin]    App Name: InMemoryRunner[0m
+[90m[logging_plugin]    Root Agent: shopping_agent[0m
+[90m[logging_plugin]    User Content: text: 'chrismas chocolate gift boxes'[0m
+[90m[logging_plugin] 🏃 INVOCATION STARTING[0m
+[90m[logging_plugin]    Invocation ID: e-2178d834-64b7-4e96-909f-e3005860ab03[0m
+[90m[logging_plugin]    Starting Agent: shopping_agent[0m
+[90m[logging_plugin] 🤖 AGENT STARTING[0m
+[90m[logging_plugin]    Agent Name: shopping_agent[0m
+[90m[logging_plugin]    Invocation ID: e-2178d834-64b7-4e96-909f-e3005860ab03[0m
+[90m[logging_plugin] 🧠 LLM REQUEST[0m
+[90m[logging_plugin]    Model: gemini-2.0-flash[0m
+[90m[logging_plugin]    Agent: shopping_agent[0m
+[90m[logging_plugin]    System Instruction: '
+    You are a helpful shopping assistant. Use the tools provided to find products, compare prices, 
+    and provide recommendations based on user preferences.
+    When using the google_search tool, b...'[0m
+[90m[logging_plugin] 🧠 LLM RESPONSE[0m
+[90m[logging_plugin]    Agent: shopping_agent[0m
+[90m[logging_plugin]    Content: text: 'Here are some Christmas chocolate gift box options for 2025:
+
+*   **Compartes:** Offers a variety of Christmas chocolate gifts, including the Green Pine Christmas Chocolate Gift Box. They also have ad...'[0m
+[90m[logging_plugin]    Token Usage - Input: 191, Output: 339[0m
+[90m[logging_plugin] 📢 EVENT YIELDED[0m
+[90m[logging_plugin]    Event ID: 9bf5f5e0-a185-49e8-a80c-0d63bc03e81b[0m
+[90m[logging_plugin]    Author: shopping_agent[0m
+[90m[logging_plugin]    Content: text: 'Here are some Christmas chocolate gift box options for 2025:
+
+*   **Compartes:** Offers a variety of Christmas chocolate gifts, including the Green Pine Christmas Chocolate Gift Box. They also have ad...'[0m
+[90m[logging_plugin]    Final Response: True[0m
+[90m[logging_plugin] 🤖 AGENT COMPLETED[0m
+[90m[logging_plugin]    Agent Name: shopping_agent[0m
+[90m[logging_plugin]    Invocation ID: e-2178d834-64b7-4e96-909f-e3005860ab03[0m
+[90m[logging_plugin] ✅ INVOCATION COMPLETED[0m
+[90m[logging_plugin]    Invocation ID: e-2178d834-64b7-4e96-909f-e3005860ab03[0m
+[90m[logging_plugin]    Final Agent: shopping_agent[0m
+[90m[logging_plugin] 🔧 TOOL COMPLETED[0m
+[90m[logging_plugin]    Tool Name: shopping_agent[0m
+[90m[logging_plugin]    Agent: sustainable_shopping_assistant[0m
+[90m[logging_plugin]    Function Call ID: adk-ca27f6b9-8b87-4cb9-84f3-077395b5a66d[0m
+[90m[logging_plugin]    Result: Here are some Christmas chocolate gift box options for 2025:
+
+*   **Compartes:** Offers a variety of Christmas chocolate gifts, including the Green Pine Christmas Chocolate Gift Box. They also have advent calendars, stocking stuffers, and chocolate bark.
+*   **Cacao and Cardamom:** Offer luxury Chri...}[0m
+[90m[logging_plugin] 📢 EVENT YIELDED[0m
+[90m[logging_plugin]    Event ID: ffe610fb-d0fa-49b2-a9b7-5ea311779da1[0m
+[90m[logging_plugin]    Author: sustainable_shopping_assistant[0m
+[90m[logging_plugin]    Content: function_response: shopping_agent[0m
+[90m[logging_plugin]    Final Response: False[0m
+[90m[logging_plugin]    Function Responses: ['shopping_agent'][0m
+[90m[logging_plugin] 🧠 LLM REQUEST[0m
+[90m[logging_plugin]    Model: gemini-2.0-flash[0m
+[90m[logging_plugin]    Agent: sustainable_shopping_assistant[0m
+[90m[logging_plugin]    System Instruction: '
+    You are a sustainable shopping assistant. Your task is to combine the shopping recommendations
+    from the shopping_agent with the sustainability evaluations from the sustainability_evaluation_a...'[0m
+[90m[logging_plugin]    Available Tools: ['shopping_agent', 'sustainability_evaluation_agent'][0m
+[90m[logging_plugin] 🧠 LLM RESPONSE[0m
+[90m[logging_plugin]    Agent: sustainable_shopping_assistant[0m
+[90m[logging_plugin]    Content: function_call: sustainability_evaluation_agent | function_call: sustainability_evaluation_agent | function_call: sustainability_evaluation_agent | function_call: sustainability_evaluation_agent | function_call: sustainability_evaluation_agent | function_call: sustainability_evaluation_agent | function_call: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Token Usage - Input: 661, Output: 66[0m
+[90m[logging_plugin] 📢 EVENT YIELDED[0m
+[90m[logging_plugin]    Event ID: 080ae74e-eceb-409c-b04f-55bcfd47c22a[0m
+[90m[logging_plugin]    Author: sustainable_shopping_assistant[0m
+[90m[logging_plugin]    Content: function_call: sustainability_evaluation_agent | function_call: sustainability_evaluation_agent | function_call: sustainability_evaluation_agent | function_call: sustainability_evaluation_agent | function_call: sustainability_evaluation_agent | function_call: sustainability_evaluation_agent | function_call: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Final Response: False[0m
+[90m[logging_plugin]    Function Calls: ['sustainability_evaluation_agent', 'sustainability_evaluation_agent', 'sustainability_evaluation_agent', 'sustainability_evaluation_agent', 'sustainability_evaluation_agent', 'sustainability_evaluation_agent', 'sustainability_evaluation_agent'][0m
+[90m[logging_plugin] 🔧 TOOL STARTING[0m
+[90m[logging_plugin]    Tool Name: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Agent: sustainable_shopping_assistant[0m
+[90m[logging_plugin]    Function Call ID: adk-48a5bfda-77ab-4a62-b9a3-43534ef95b48[0m
+[90m[logging_plugin]    Arguments: {'request': 'Compartes'}[0m
+[90m[logging_plugin] 🚀 USER MESSAGE RECEIVED[0m
+[90m[logging_plugin]    Invocation ID: e-09a62501-d552-4f8a-837a-bdd57e79edd7[0m
+[90m[logging_plugin]    Session ID: 43d92aac-62cc-4e23-b8bf-c1c3cfb9ffe3[0m
+[90m[logging_plugin]    User ID: debug_user_id[0m
+[90m[logging_plugin]    App Name: InMemoryRunner[0m
+[90m[logging_plugin]    Root Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    User Content: text: 'Compartes'[0m
+[90m[logging_plugin] 🏃 INVOCATION STARTING[0m
+[90m[logging_plugin]    Invocation ID: e-09a62501-d552-4f8a-837a-bdd57e79edd7[0m
+[90m[logging_plugin]    Starting Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin] 🤖 AGENT STARTING[0m
+[90m[logging_plugin]    Agent Name: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Invocation ID: e-09a62501-d552-4f8a-837a-bdd57e79edd7[0m
+[90m[logging_plugin] 🧠 LLM REQUEST[0m
+[90m[logging_plugin]    Model: gemini-2.0-flash[0m
+[90m[logging_plugin]    Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    System Instruction: '
+    You are a sustainability evaluation agent. Use the tools provided to research companies,
+    focusing on their environmental impact, ethical practices, and sustainability initiatives.
+    You sho...'[0m
+[90m[logging_plugin] 🔧 TOOL STARTING[0m
+[90m[logging_plugin]    Tool Name: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Agent: sustainable_shopping_assistant[0m
+[90m[logging_plugin]    Function Call ID: adk-0a987ac5-14cc-43b4-8d3a-668aa9e14b64[0m
+[90m[logging_plugin]    Arguments: {'request': 'Cacao and Cardamom'}[0m
+[90m[logging_plugin] 🚀 USER MESSAGE RECEIVED[0m
+[90m[logging_plugin]    Invocation ID: e-f9efcbb8-16c3-4db2-89d2-6dc25e84a568[0m
+[90m[logging_plugin]    Session ID: 13d278e3-3a7e-4e13-9299-03dc9d51e76d[0m
+[90m[logging_plugin]    User ID: debug_user_id[0m
+[90m[logging_plugin]    App Name: InMemoryRunner[0m
+[90m[logging_plugin]    Root Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    User Content: text: 'Cacao and Cardamom'[0m
+[90m[logging_plugin] 🏃 INVOCATION STARTING[0m
+[90m[logging_plugin]    Invocation ID: e-f9efcbb8-16c3-4db2-89d2-6dc25e84a568[0m
+[90m[logging_plugin]    Starting Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin] 🤖 AGENT STARTING[0m
+[90m[logging_plugin]    Agent Name: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Invocation ID: e-f9efcbb8-16c3-4db2-89d2-6dc25e84a568[0m
+[90m[logging_plugin] 🧠 LLM REQUEST[0m
+[90m[logging_plugin]    Model: gemini-2.0-flash[0m
+[90m[logging_plugin]    Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    System Instruction: '
+    You are a sustainability evaluation agent. Use the tools provided to research companies,
+    focusing on their environmental impact, ethical practices, and sustainability initiatives.
+    You sho...'[0m
+[90m[logging_plugin] 🔧 TOOL STARTING[0m
+[90m[logging_plugin]    Tool Name: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Agent: sustainable_shopping_assistant[0m
+[90m[logging_plugin]    Function Call ID: adk-fe44fd5e-a09c-4bb6-9dea-8346d493bf97[0m
+[90m[logging_plugin]    Arguments: {'request': 'Mueller Chocolate Co.'}[0m
+[90m[logging_plugin] 🚀 USER MESSAGE RECEIVED[0m
+[90m[logging_plugin]    Invocation ID: e-072348e8-a9d7-45d0-8037-f673092879b9[0m
+[90m[logging_plugin]    Session ID: b2de5bb3-9219-4fa2-b4e3-6356f3626ef1[0m
+[90m[logging_plugin]    User ID: debug_user_id[0m
+[90m[logging_plugin]    App Name: InMemoryRunner[0m
+[90m[logging_plugin]    Root Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    User Content: text: 'Mueller Chocolate Co.'[0m
+[90m[logging_plugin] 🏃 INVOCATION STARTING[0m
+[90m[logging_plugin]    Invocation ID: e-072348e8-a9d7-45d0-8037-f673092879b9[0m
+[90m[logging_plugin]    Starting Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin] 🤖 AGENT STARTING[0m
+[90m[logging_plugin]    Agent Name: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Invocation ID: e-072348e8-a9d7-45d0-8037-f673092879b9[0m
+[90m[logging_plugin] 🧠 LLM REQUEST[0m
+[90m[logging_plugin]    Model: gemini-2.0-flash[0m
+[90m[logging_plugin]    Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    System Instruction: '
+    You are a sustainability evaluation agent. Use the tools provided to research companies,
+    focusing on their environmental impact, ethical practices, and sustainability initiatives.
+    You sho...'[0m
+[90m[logging_plugin] 🔧 TOOL STARTING[0m
+[90m[logging_plugin]    Tool Name: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Agent: sustainable_shopping_assistant[0m
+[90m[logging_plugin]    Function Call ID: adk-342c242c-c6cd-45c9-a420-cf32a9256c47[0m
+[90m[logging_plugin]    Arguments: {'request': 'Hotel Chocolat'}[0m
+[90m[logging_plugin] 🚀 USER MESSAGE RECEIVED[0m
+[90m[logging_plugin]    Invocation ID: e-6e91be49-bba0-4727-86f8-347c655947a5[0m
+[90m[logging_plugin]    Session ID: 3bb47289-82c2-4cef-9c05-444e698edc25[0m
+[90m[logging_plugin]    User ID: debug_user_id[0m
+[90m[logging_plugin]    App Name: InMemoryRunner[0m
+[90m[logging_plugin]    Root Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    User Content: text: 'Hotel Chocolat'[0m
+[90m[logging_plugin] 🏃 INVOCATION STARTING[0m
+[90m[logging_plugin]    Invocation ID: e-6e91be49-bba0-4727-86f8-347c655947a5[0m
+[90m[logging_plugin]    Starting Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin] 🤖 AGENT STARTING[0m
+[90m[logging_plugin]    Agent Name: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Invocation ID: e-6e91be49-bba0-4727-86f8-347c655947a5[0m
+[90m[logging_plugin] 🧠 LLM REQUEST[0m
+[90m[logging_plugin]    Model: gemini-2.0-flash[0m
+[90m[logging_plugin]    Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    System Instruction: '
+    You are a sustainability evaluation agent. Use the tools provided to research companies,
+    focusing on their environmental impact, ethical practices, and sustainability initiatives.
+    You sho...'[0m
+[90m[logging_plugin] 🔧 TOOL STARTING[0m
+[90m[logging_plugin]    Tool Name: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Agent: sustainable_shopping_assistant[0m
+[90m[logging_plugin]    Function Call ID: adk-09d7aee0-8c68-4972-912a-cfa0ef03078c[0m
+[90m[logging_plugin]    Arguments: {'request': 'Lindt'}[0m
+[90m[logging_plugin] 🚀 USER MESSAGE RECEIVED[0m
+[90m[logging_plugin]    Invocation ID: e-2ce23957-fec2-4591-888b-e7427dbb0b48[0m
+[90m[logging_plugin]    Session ID: a839e94f-9c25-42fa-b8ef-002a2706d3e7[0m
+[90m[logging_plugin]    User ID: debug_user_id[0m
+[90m[logging_plugin]    App Name: InMemoryRunner[0m
+[90m[logging_plugin]    Root Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    User Content: text: 'Lindt'[0m
+[90m[logging_plugin] 🏃 INVOCATION STARTING[0m
+[90m[logging_plugin]    Invocation ID: e-2ce23957-fec2-4591-888b-e7427dbb0b48[0m
+[90m[logging_plugin]    Starting Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin] 🤖 AGENT STARTING[0m
+[90m[logging_plugin]    Agent Name: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Invocation ID: e-2ce23957-fec2-4591-888b-e7427dbb0b48[0m
+[90m[logging_plugin] 🧠 LLM REQUEST[0m
+[90m[logging_plugin]    Model: gemini-2.0-flash[0m
+[90m[logging_plugin]    Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    System Instruction: '
+    You are a sustainability evaluation agent. Use the tools provided to research companies,
+    focusing on their environmental impact, ethical practices, and sustainability initiatives.
+    You sho...'[0m
+[90m[logging_plugin] 🔧 TOOL STARTING[0m
+[90m[logging_plugin]    Tool Name: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Agent: sustainable_shopping_assistant[0m
+[90m[logging_plugin]    Function Call ID: adk-5dd3fa15-770f-4934-b61c-1f1afbb41680[0m
+[90m[logging_plugin]    Arguments: {'request': 'Cadbury Gifts Direct'}[0m
+[90m[logging_plugin] 🚀 USER MESSAGE RECEIVED[0m
+[90m[logging_plugin]    Invocation ID: e-529a3bd9-4903-4752-8ef0-52149cd056bb[0m
+[90m[logging_plugin]    Session ID: 38b2648f-97e9-44f5-8ed9-cc9d5ed85bf6[0m
+[90m[logging_plugin]    User ID: debug_user_id[0m
+[90m[logging_plugin]    App Name: InMemoryRunner[0m
+[90m[logging_plugin]    Root Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    User Content: text: 'Cadbury Gifts Direct'[0m
+[90m[logging_plugin] 🏃 INVOCATION STARTING[0m
+[90m[logging_plugin]    Invocation ID: e-529a3bd9-4903-4752-8ef0-52149cd056bb[0m
+[90m[logging_plugin]    Starting Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin] 🤖 AGENT STARTING[0m
+[90m[logging_plugin]    Agent Name: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Invocation ID: e-529a3bd9-4903-4752-8ef0-52149cd056bb[0m
+[90m[logging_plugin] 🧠 LLM REQUEST[0m
+[90m[logging_plugin]    Model: gemini-2.0-flash[0m
+[90m[logging_plugin]    Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    System Instruction: '
+    You are a sustainability evaluation agent. Use the tools provided to research companies,
+    focusing on their environmental impact, ethical practices, and sustainability initiatives.
+    You sho...'[0m
+[90m[logging_plugin] 🔧 TOOL STARTING[0m
+[90m[logging_plugin]    Tool Name: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Agent: sustainable_shopping_assistant[0m
+[90m[logging_plugin]    Function Call ID: adk-3b303cae-c8ab-44d6-bd89-4225d6f802bc[0m
+[90m[logging_plugin]    Arguments: {'request': 'Russell Stover'}[0m
+[90m[logging_plugin] 🚀 USER MESSAGE RECEIVED[0m
+[90m[logging_plugin]    Invocation ID: e-d9b11654-17be-4473-be61-4ec00da1ec51[0m
+[90m[logging_plugin]    Session ID: 75cd773a-3435-4a83-ac31-f2c46597dab0[0m
+[90m[logging_plugin]    User ID: debug_user_id[0m
+[90m[logging_plugin]    App Name: InMemoryRunner[0m
+[90m[logging_plugin]    Root Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    User Content: text: 'Russell Stover'[0m
+[90m[logging_plugin] 🏃 INVOCATION STARTING[0m
+[90m[logging_plugin]    Invocation ID: e-d9b11654-17be-4473-be61-4ec00da1ec51[0m
+[90m[logging_plugin]    Starting Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin] 🤖 AGENT STARTING[0m
+[90m[logging_plugin]    Agent Name: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Invocation ID: e-d9b11654-17be-4473-be61-4ec00da1ec51[0m
+[90m[logging_plugin] 🧠 LLM REQUEST[0m
+[90m[logging_plugin]    Model: gemini-2.0-flash[0m
+[90m[logging_plugin]    Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    System Instruction: '
+    You are a sustainability evaluation agent. Use the tools provided to research companies,
+    focusing on their environmental impact, ethical practices, and sustainability initiatives.
+    You sho...'[0m
+[90m[logging_plugin] 🧠 LLM RESPONSE[0m
+[90m[logging_plugin]    Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Content: text: '```json
+[
+  {
+    "brand": "Russell Stover",
+    "environment_impact_score": 3,
+    "ethical_practices_score": 3,
+    "animal_welfare_score": 3,
+    "sustainability_initiatives_score": 3,
+    "overall...'[0m
+[90m[logging_plugin]    Token Usage - Input: 819, Output: 257[0m
+[90m[logging_plugin] 📢 EVENT YIELDED[0m
+[90m[logging_plugin]    Event ID: bb37674f-9edc-457f-94ab-705692096566[0m
+[90m[logging_plugin]    Author: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Content: text: '```json
+[
+  {
+    "brand": "Russell Stover",
+    "environment_impact_score": 3,
+    "ethical_practices_score": 3,
+    "animal_welfare_score": 3,
+    "sustainability_initiatives_score": 3,
+    "overall...'[0m
+[90m[logging_plugin]    Final Response: True[0m
+[90m[logging_plugin] 🤖 AGENT COMPLETED[0m
+[90m[logging_plugin]    Agent Name: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Invocation ID: e-d9b11654-17be-4473-be61-4ec00da1ec51[0m
+[90m[logging_plugin] ✅ INVOCATION COMPLETED[0m
+[90m[logging_plugin]    Invocation ID: e-d9b11654-17be-4473-be61-4ec00da1ec51[0m
+[90m[logging_plugin]    Final Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin] 🔧 TOOL COMPLETED[0m
+[90m[logging_plugin]    Tool Name: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Agent: sustainable_shopping_assistant[0m
+[90m[logging_plugin]    Function Call ID: adk-3b303cae-c8ab-44d6-bd89-4225d6f802bc[0m
+[90m[logging_plugin]    Result: ```json
+[
+  {
+    "brand": "Russell Stover",
+    "environment_impact_score": 3,
+    "ethical_practices_score": 3,
+    "animal_welfare_score": 3,
+    "sustainability_initiatives_score": 3,
+    "overall_sustainability_rating": 3.0,
+    "summary": "Russell Stover is part of the Lindt & Sprüngli group a...}[0m
+[90m[logging_plugin] 🧠 LLM RESPONSE[0m
+[90m[logging_plugin]    Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Content: text: 'Here is a sustainability evaluation for Lindt, based on the provided information:' | text: '```json
+[
+  {
+    "brand": "Lindt",
+    "environment_impact_score": 4,
+    "ethical_practices_score": 4,
+    "animal_welfare_score": 5,
+    "sustainability_initiatives_score": 4,
+    "overall_sustaina...'[0m
+[90m[logging_plugin]    Token Usage - Input: 818, Output: 234[0m
+[90m[logging_plugin] 📢 EVENT YIELDED[0m
+[90m[logging_plugin]    Event ID: 46b8a881-9a8e-44e7-ac56-5d6be597ccb9[0m
+[90m[logging_plugin]    Author: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Content: text: 'Here is a sustainability evaluation for Lindt, based on the provided information:' | text: '```json
+[
+  {
+    "brand": "Lindt",
+    "environment_impact_score": 4,
+    "ethical_practices_score": 4,
+    "animal_welfare_score": 5,
+    "sustainability_initiatives_score": 4,
+    "overall_sustaina...'[0m
+[90m[logging_plugin]    Final Response: True[0m
+[90m[logging_plugin] 🤖 AGENT COMPLETED[0m
+[90m[logging_plugin]    Agent Name: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Invocation ID: e-2ce23957-fec2-4591-888b-e7427dbb0b48[0m
+[90m[logging_plugin] ✅ INVOCATION COMPLETED[0m
+[90m[logging_plugin]    Invocation ID: e-2ce23957-fec2-4591-888b-e7427dbb0b48[0m
+[90m[logging_plugin]    Final Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin] 🔧 TOOL COMPLETED[0m
+[90m[logging_plugin]    Tool Name: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Agent: sustainable_shopping_assistant[0m
+[90m[logging_plugin]    Function Call ID: adk-09d7aee0-8c68-4972-912a-cfa0ef03078c[0m
+[90m[logging_plugin]    Result: Here is a sustainability evaluation for Lindt, based on the provided information:
+
+
+```json
+[
+  {
+    "brand": "Lindt",
+    "environment_impact_score": 4,
+    "ethical_practices_score": 4,
+    "animal_welfare_score": 5,
+    "sustainability_initiatives_score": 4,
+    "overall_sustainability_rating": ...}[0m
+[90m[logging_plugin] 🧠 LLM RESPONSE[0m
+[90m[logging_plugin]    Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Content: text: 'Here's a sustainability evaluation of Compartes:' | text: '```json
+[
+  {
+    "brand": "Compartes",
+    "environment_impact_score": 4,
+    "ethical_practices_score": 4,
+    "animal_welfare_score": 3,
+    "sustainability_initiatives_score": 4,
+    "overall_sust...'[0m
+[90m[logging_plugin]    Token Usage - Input: 818, Output: 215[0m
+[90m[logging_plugin] 📢 EVENT YIELDED[0m
+[90m[logging_plugin]    Event ID: 46893ce0-5718-45d9-b4a6-cac94be82ff1[0m
+[90m[logging_plugin]    Author: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Content: text: 'Here's a sustainability evaluation of Compartes:' | text: '```json
+[
+  {
+    "brand": "Compartes",
+    "environment_impact_score": 4,
+    "ethical_practices_score": 4,
+    "animal_welfare_score": 3,
+    "sustainability_initiatives_score": 4,
+    "overall_sust...'[0m
+[90m[logging_plugin]    Final Response: True[0m
+[90m[logging_plugin] 🤖 AGENT COMPLETED[0m
+[90m[logging_plugin]    Agent Name: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Invocation ID: e-09a62501-d552-4f8a-837a-bdd57e79edd7[0m
+[90m[logging_plugin] ✅ INVOCATION COMPLETED[0m
+[90m[logging_plugin]    Invocation ID: e-09a62501-d552-4f8a-837a-bdd57e79edd7[0m
+[90m[logging_plugin]    Final Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin] 🔧 TOOL COMPLETED[0m
+[90m[logging_plugin]    Tool Name: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Agent: sustainable_shopping_assistant[0m
+[90m[logging_plugin]    Function Call ID: adk-48a5bfda-77ab-4a62-b9a3-43534ef95b48[0m
+[90m[logging_plugin]    Result: Here's a sustainability evaluation of Compartes:
+
+
+```json
+[
+  {
+    "brand": "Compartes",
+    "environment_impact_score": 4,
+    "ethical_practices_score": 4,
+    "animal_welfare_score": 3,
+    "sustainability_initiatives_score": 4,
+    "overall_sustainability_rating": 3.75,
+    "summary": "Compart...}[0m
+[90m[logging_plugin] 🧠 LLM RESPONSE[0m
+[90m[logging_plugin]    Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Content: text: '```json
+[
+  {
+    "brand": "Cacao and Cardamom",
+    "environment_impact_score": 3,
+    "ethical_practices_score": 4,
+    "animal_welfare_score": 5,
+    "sustainability_initiatives_score": 3,
+    "ove...'[0m
+[90m[logging_plugin]    Token Usage - Input: 821, Output: 232[0m
+[90m[logging_plugin] 📢 EVENT YIELDED[0m
+[90m[logging_plugin]    Event ID: 77d18f8b-83ce-4c89-b941-8c98bb68cdfa[0m
+[90m[logging_plugin]    Author: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Content: text: '```json
+[
+  {
+    "brand": "Cacao and Cardamom",
+    "environment_impact_score": 3,
+    "ethical_practices_score": 4,
+    "animal_welfare_score": 5,
+    "sustainability_initiatives_score": 3,
+    "ove...'[0m
+[90m[logging_plugin]    Final Response: True[0m
+[90m[logging_plugin] 🤖 AGENT COMPLETED[0m
+[90m[logging_plugin]    Agent Name: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Invocation ID: e-f9efcbb8-16c3-4db2-89d2-6dc25e84a568[0m
+[90m[logging_plugin] ✅ INVOCATION COMPLETED[0m
+[90m[logging_plugin]    Invocation ID: e-f9efcbb8-16c3-4db2-89d2-6dc25e84a568[0m
+[90m[logging_plugin]    Final Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin] 🔧 TOOL COMPLETED[0m
+[90m[logging_plugin]    Tool Name: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Agent: sustainable_shopping_assistant[0m
+[90m[logging_plugin]    Function Call ID: adk-0a987ac5-14cc-43b4-8d3a-668aa9e14b64[0m
+[90m[logging_plugin]    Result: ```json
+[
+  {
+    "brand": "Cacao and Cardamom",
+    "environment_impact_score": 3,
+    "ethical_practices_score": 4,
+    "animal_welfare_score": 5,
+    "sustainability_initiatives_score": 3,
+    "overall_sustainability_rating": 3.75,
+    "summary": "Cacao and Cardamom demonstrates a mixed approach ...}[0m
+[90m[logging_plugin] 🧠 LLM RESPONSE[0m
+[90m[logging_plugin]    Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Content: text: 'Here's a sustainability evaluation for Mueller Chocolate Co., based on the provided search results:' | text: '```json
+[
+  {
+    "brand": "Mueller Chocolate Co.",
+    "environment_impact_score": 2,
+    "ethical_practices_score": 3,
+    "animal_welfare_score": 3,
+    "sustainability_initiatives_score": 2,
+    "...'[0m
+[90m[logging_plugin]    Token Usage - Input: 821, Output: 310[0m
+[90m[logging_plugin] 📢 EVENT YIELDED[0m
+[90m[logging_plugin]    Event ID: 95906f0b-a2e2-4684-9b5e-7fea99312aef[0m
+[90m[logging_plugin]    Author: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Content: text: 'Here's a sustainability evaluation for Mueller Chocolate Co., based on the provided search results:' | text: '```json
+[
+  {
+    "brand": "Mueller Chocolate Co.",
+    "environment_impact_score": 2,
+    "ethical_practices_score": 3,
+    "animal_welfare_score": 3,
+    "sustainability_initiatives_score": 2,
+    "...'[0m
+[90m[logging_plugin]    Final Response: True[0m
+[90m[logging_plugin] 🤖 AGENT COMPLETED[0m
+[90m[logging_plugin]    Agent Name: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Invocation ID: e-072348e8-a9d7-45d0-8037-f673092879b9[0m
+[90m[logging_plugin] ✅ INVOCATION COMPLETED[0m
+[90m[logging_plugin]    Invocation ID: e-072348e8-a9d7-45d0-8037-f673092879b9[0m
+[90m[logging_plugin]    Final Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin] 🔧 TOOL COMPLETED[0m
+[90m[logging_plugin]    Tool Name: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Agent: sustainable_shopping_assistant[0m
+[90m[logging_plugin]    Function Call ID: adk-fe44fd5e-a09c-4bb6-9dea-8346d493bf97[0m
+[90m[logging_plugin]    Result: Here's a sustainability evaluation for Mueller Chocolate Co., based on the provided search results:
+
+
+```json
+[
+  {
+    "brand": "Mueller Chocolate Co.",
+    "environment_impact_score": 2,
+    "ethical_practices_score": 3,
+    "animal_welfare_score": 3,
+    "sustainability_initiatives_score": 2,
+   ...}[0m
+[90m[logging_plugin] 🧠 LLM RESPONSE[0m
+[90m[logging_plugin]    Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Content: text: 'Here's an evaluation of Cadbury Gifts Direct based on the criteria you provided:' | text: '```json
+[
+  {
+    "brand": "Cadbury Gifts Direct",
+    "environment_impact_score": 3,
+    "ethical_practices_score": 3,
+    "animal_welfare_score": 3,
+    "sustainability_initiatives_score": 3,
+    "o...'[0m
+[90m[logging_plugin]    Token Usage - Input: 820, Output: 267[0m
+[90m[logging_plugin] 📢 EVENT YIELDED[0m
+[90m[logging_plugin]    Event ID: cce6a00c-3a64-43a1-8ad2-8bae32be1ceb[0m
+[90m[logging_plugin]    Author: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Content: text: 'Here's an evaluation of Cadbury Gifts Direct based on the criteria you provided:' | text: '```json
+[
+  {
+    "brand": "Cadbury Gifts Direct",
+    "environment_impact_score": 3,
+    "ethical_practices_score": 3,
+    "animal_welfare_score": 3,
+    "sustainability_initiatives_score": 3,
+    "o...'[0m
+[90m[logging_plugin]    Final Response: True[0m
+[90m[logging_plugin] 🤖 AGENT COMPLETED[0m
+[90m[logging_plugin]    Agent Name: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Invocation ID: e-529a3bd9-4903-4752-8ef0-52149cd056bb[0m
+[90m[logging_plugin] ✅ INVOCATION COMPLETED[0m
+[90m[logging_plugin]    Invocation ID: e-529a3bd9-4903-4752-8ef0-52149cd056bb[0m
+[90m[logging_plugin]    Final Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin] 🔧 TOOL COMPLETED[0m
+[90m[logging_plugin]    Tool Name: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Agent: sustainable_shopping_assistant[0m
+[90m[logging_plugin]    Function Call ID: adk-5dd3fa15-770f-4934-b61c-1f1afbb41680[0m
+[90m[logging_plugin]    Result: Here's an evaluation of Cadbury Gifts Direct based on the criteria you provided:
+
+
+```json
+[
+  {
+    "brand": "Cadbury Gifts Direct",
+    "environment_impact_score": 3,
+    "ethical_practices_score": 3,
+    "animal_welfare_score": 3,
+    "sustainability_initiatives_score": 3,
+    "overall_sustainabi...}[0m
+[90m[logging_plugin] 🧠 LLM RESPONSE[0m
+[90m[logging_plugin]    Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Content: text: 'Here's a sustainability evaluation of Hotel Chocolat based on the provided sources:' | text: '```json
+[
+  {
+    "brand": "Hotel Chocolat",
+    "environment_impact_score": 4,
+    "ethical_practices_score": 4,
+    "animal_welfare_score": 2,
+    "sustainability_initiatives_score": 4,
+    "overall...'[0m
+[90m[logging_plugin]    Token Usage - Input: 819, Output: 425[0m
+[90m[logging_plugin] 📢 EVENT YIELDED[0m
+[90m[logging_plugin]    Event ID: 69c6555c-4769-4c27-8393-4ff48a91454a[0m
+[90m[logging_plugin]    Author: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Content: text: 'Here's a sustainability evaluation of Hotel Chocolat based on the provided sources:' | text: '```json
+[
+  {
+    "brand": "Hotel Chocolat",
+    "environment_impact_score": 4,
+    "ethical_practices_score": 4,
+    "animal_welfare_score": 2,
+    "sustainability_initiatives_score": 4,
+    "overall...'[0m
+[90m[logging_plugin]    Final Response: True[0m
+[90m[logging_plugin] 🤖 AGENT COMPLETED[0m
+[90m[logging_plugin]    Agent Name: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Invocation ID: e-6e91be49-bba0-4727-86f8-347c655947a5[0m
+[90m[logging_plugin] ✅ INVOCATION COMPLETED[0m
+[90m[logging_plugin]    Invocation ID: e-6e91be49-bba0-4727-86f8-347c655947a5[0m
+[90m[logging_plugin]    Final Agent: sustainability_evaluation_agent[0m
+[90m[logging_plugin] 🔧 TOOL COMPLETED[0m
+[90m[logging_plugin]    Tool Name: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Agent: sustainable_shopping_assistant[0m
+[90m[logging_plugin]    Function Call ID: adk-342c242c-c6cd-45c9-a420-cf32a9256c47[0m
+[90m[logging_plugin]    Result: Here's a sustainability evaluation of Hotel Chocolat based on the provided sources:
+
+
+```json
+[
+  {
+    "brand": "Hotel Chocolat",
+    "environment_impact_score": 4,
+    "ethical_practices_score": 4,
+    "animal_welfare_score": 2,
+    "sustainability_initiatives_score": 4,
+    "overall_sustainabilit...}[0m
+[90m[logging_plugin] 📢 EVENT YIELDED[0m
+[90m[logging_plugin]    Event ID: 98c3fc9b-c64d-4310-a99f-c5274794619a[0m
+[90m[logging_plugin]    Author: sustainable_shopping_assistant[0m
+[90m[logging_plugin]    Content: function_response: sustainability_evaluation_agent | function_response: sustainability_evaluation_agent | function_response: sustainability_evaluation_agent | function_response: sustainability_evaluation_agent | function_response: sustainability_evaluation_agent | function_response: sustainability_evaluation_agent | function_response: sustainability_evaluation_agent[0m
+[90m[logging_plugin]    Final Response: False[0m
+[90m[logging_plugin]    Function Responses: ['sustainability_evaluation_agent', 'sustainability_evaluation_agent', 'sustainability_evaluation_agent', 'sustainability_evaluation_agent', 'sustainability_evaluation_agent', 'sustainability_evaluation_agent', 'sustainability_evaluation_agent'][0m
+[90m[logging_plugin] 🧠 LLM REQUEST[0m
+[90m[logging_plugin]    Model: gemini-2.0-flash[0m
+[90m[logging_plugin]    Agent: sustainable_shopping_assistant[0m
+[90m[logging_plugin]    System Instruction: '
+    You are a sustainable shopping assistant. Your task is to combine the shopping recommendations
+    from the shopping_agent with the sustainability evaluations from the sustainability_evaluation_a...'[0m
+[90m[logging_plugin]    Available Tools: ['shopping_agent', 'sustainability_evaluation_agent'][0m
+[90m[logging_plugin] 🧠 LLM RESPONSE[0m
+[90m[logging_plugin]    Agent: sustainable_shopping_assistant[0m
+[90m[logging_plugin]    Content: text: '```json
+{
+    "brand": "Lindt",
+    "environment_impact_score": 4,
+    "ethical_practices_score": 4,
+    "animal_welfare_score": 5,
+    "sustainability_initiatives_score": 4,
+    "overall_sustainabili...'[0m
+[90m[logging_plugin]    Token Usage - Input: 2709, Output: 183[0m
+[90m[logging_plugin] 📢 EVENT YIELDED[0m
+[90m[logging_plugin]    Event ID: adde6f83-5487-4d6b-9bf9-f785b4638b2c[0m
+[90m[logging_plugin]    Author: sustainable_shopping_assistant[0m
+[90m[logging_plugin]    Content: text: '```json
+{
+    "brand": "Lindt",
+    "environment_impact_score": 4,
+    "ethical_practices_score": 4,
+    "animal_welfare_score": 5,
+    "sustainability_initiatives_score": 4,
+    "overall_sustainabili...'[0m
+[90m[logging_plugin]    Final Response: True[0m
+sustainable_shopping_assistant > ```json
+{
+    "brand": "Lindt",
+    "environment_impact_score": 4,
+    "ethical_practices_score": 4,
+    "animal_welfare_score": 5,
+    "sustainability_initiatives_score": 4,
+    "overall_sustainability_rating": 4.25,
+    "user_review_score": 4.5,
+    "summary": "Lindt demonstrates a strong commitment to sustainability. Their environmental efforts include reducing deforestation, achieving net-zero emissions by 2050, and designing recyclable packaging. Ethically, Lindt focuses on improving the livelihoods of cocoa farmers through the Lindt & Sprüngli Farming Program. They also have a policy banning animal testing. Lindt's comprehensive approach and clear targets indicate a strong dedication to sustainability."
+}
+```
+[90m[logging_plugin] 🤖 AGENT COMPLETED[0m
+[90m[logging_plugin]    Agent Name: sustainable_shopping_assistant[0m
+[90m[logging_plugin]    Invocation ID: e-7ca19203-124b-491f-8e7b-f662a39f858d[0m
+[90m[logging_plugin] ✅ INVOCATION COMPLETED[0m
+[90m[logging_plugin]    Invocation ID: e-7ca19203-124b-491f-8e7b-f662a39f858d[0m
+[90m[logging_plugin]    Final Agent: sustainable_shopping_assistant[0m
